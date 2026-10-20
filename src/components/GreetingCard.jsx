@@ -82,7 +82,7 @@ const GreetingCard = ({
                 {/* Signature & Actions */}
                 <div className="pt-3 border-t border-pink-400/20 flex flex-col sm:flex-row justify-between items-center gap-2.5">
                     <div className="text-center sm:text-left">
-                        <p className="text-[11px] text-pink-300/70 italic">Thương mến gửi từ,</p>
+                        <p className="text-[11px] text-pink-300/70 italic">Gửi từ,</p>
                         <p className="text-xs sm:text-sm font-serif-title font-semibold text-pink-200">
                             {renderFormattedSender(sender)}
                         </p>
